@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+   
+    
+  }
+
+  :root{
+  --bg-url: url(./imagens/sim.jpg);
+  --text-color: red;  
+}
+  body {
+    background:var(--bg-url) no-repeat top center/cover;
+  /*ñ mistura as duas coisas*/
+  }
+  body *{
+    font-family: "inter", sans-serif;
+    color: var(--text-color);
+  }
+  #meio{
+    width: 360px;
+  margin: 56px auto 0px auto;
+  padding: 0 24px;
+    /*margin-right: auto;
+  margin-left: auto;*/
+  }
